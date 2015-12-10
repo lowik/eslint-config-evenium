@@ -3,7 +3,7 @@
     "registry": "http://npm.evenium.test:4873"
   },
   "name": "eslint-config-evenium",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Evenium's ESLint config",
   "main": "index.js",
   "repository": {
