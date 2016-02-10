@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-evenium",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Evenium's ESLint config",
   "main": "index.js",
   "repository": {
