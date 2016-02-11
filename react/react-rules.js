@@ -26,8 +26,6 @@ module.exports = {
 		'react/sort-comp': [2, {         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
 			'order': [
 				'lifecycle',
-				'/^on.+$/',
-				'/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
 				'everything-else',
 				'/^render.+$/',
 				'render'
