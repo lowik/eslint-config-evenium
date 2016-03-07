@@ -46,7 +46,7 @@ module.exports = {
 			'vars': 'local',
 			'args': 'none'
 		}],
-		'no-use-before-define': 2,         // http://eslint.org/docs/rules/no-use-before-define
+		//'no-use-before-define': 2,         // http://eslint.org/docs/rules/no-use-before-define
 
 		/**
 		 * Possible errors
