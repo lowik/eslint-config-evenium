@@ -66,7 +66,7 @@ module.exports = {
 		"flowtype/use-flow-type": 1,
 		"flowtype/valid-syntax": 1
 	},
-	"settings": {
+	settings: {
 		"flowtype": {
 			"onlyFilesWithFlowAnnotation": true
 		}

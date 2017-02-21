@@ -13,5 +13,5 @@ Object.keys(reactRules.rules).forEach(function assignRule(ruleId) {
 Object.keys(flowRules.rules).forEach(function assignRule(ruleId) {
   eslintrc.rules[ruleId] = flowRules.rules[ruleId];
 });
-
+eslintrc.settings = flowRules.settings; //only flow need settings
 module.exports = eslintrc;
