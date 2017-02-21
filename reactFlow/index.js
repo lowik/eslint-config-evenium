@@ -1,6 +1,6 @@
 const baseRules = require('../base-rules');
-const reactRules = require('../react-rules');
-const flowRules = require('./reactFlow-rules');
+const reactRules = require('../react/react-rules');
+const flowRules = require('./flow-rules');
 
 // clone this so we aren't mutating a module
 const eslintrc = JSON.parse(JSON.stringify(baseRules));
