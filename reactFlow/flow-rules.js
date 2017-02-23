@@ -1,16 +1,9 @@
 module.exports = {
 	plugins: [
- 	'react', // https://github.com/yannickcr/eslint-plugin-react,
-	 'flowtype' //https://github.com/gajus/eslint-plugin-flowtype
+		'react', // https://github.com/yannickcr/eslint-plugin-react,
+		'flowtype' //https://github.com/gajus/eslint-plugin-flowtype
 	],
 	rules: {
-		/**
-		 * JSX style
-		 */
-		'react/prop-types': 0,           // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-		/**
-		 * Flow
-		 */
 		"flowtype/boolean-style": [
 			2,
 			"boolean"
@@ -35,7 +28,8 @@ module.exports = {
 			2,
 			"always",
 			{
-				"annotateUndefined": "never"
+				"annotateUndefined": "never",
+				"excludeArrowFunctions": true
 			}
 		],
 		"flowtype/require-valid-file-annotation": 2,
