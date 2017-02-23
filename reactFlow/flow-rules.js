@@ -1,9 +1,9 @@
-{
-	"plugins": [
+module.exports = {
+	plugins: [
  	'react', // https://github.com/yannickcr/eslint-plugin-react,
 	 'flowtype' //https://github.com/gajus/eslint-plugin-flowtype
 	],
-	"rules": {
+	rules: {
 		"flowtype/boolean-style": [
 			2,
 			"boolean"
@@ -60,9 +60,9 @@
 		"flowtype/use-flow-type": 1,
 		"flowtype/valid-syntax": 1
 	},
-	"settings": {
+	settings: {
 		"flowtype": {
 			"onlyFilesWithFlowAnnotation": true
 		}
 	}
-}
+};
