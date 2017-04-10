@@ -17,9 +17,11 @@
   ],
   "peerDependencies": {
     "babel-eslint": ">=4.1.1",
-    "eslint": ">=2.0.0",
-    "eslint-plugin-react": ">=3.3.2",
+    "eslint": ">=2.0.0"
+  },
+  "optionalDependencies": { 
     "react": ">=0.13.3",
+    "eslint-plugin-react": ">=3.3.2",
     "eslint-plugin-flowtype": ">=2.29.1"
   }
 }
