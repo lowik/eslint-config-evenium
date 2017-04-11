@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-evenium",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Evenium's ESLint config",
   "main": "index.js",
   "repository": {
@@ -19,7 +19,7 @@
     "babel-eslint": ">=4.1.1",
     "eslint": ">=2.0.0"
   },
-  "optionalDependencies": { 
+  "optionalDependencies": {
     "react": ">=0.13.3",
     "eslint-plugin-react": ">=3.3.2",
     "eslint-plugin-flowtype": ">=2.29.1"
