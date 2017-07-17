@@ -2,10 +2,7 @@ module.exports = {
 	parser: 'babel-eslint',   // https://github.com/babel/babel-eslint
 	parserOptions: {
     ecmaVersion: 2017,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
+    sourceType: 'module'
   },
 	env: {                    // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
 		'browser': true,         // browser global variables
