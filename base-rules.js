@@ -108,7 +108,14 @@ module.exports = {
 		/**
 		 * Style
 		 */
-		'indent': ['error', 'tab', { 'SwitchCase': 1 }],   // http://eslint.org/docs/rules/indent
+		// http://eslint.org/docs/rules/indent
+		indent: ['error', 'tab', {
+			SwitchCase: 1,
+			FunctionDeclaration: {
+        parameters: 2,
+        body: 1
+      },
+		}],
 		'brace-style': [                           // http://eslint.org/docs/rules/brace-style
 			'error',
 			'1tbs', {
