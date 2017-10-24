@@ -109,7 +109,7 @@ module.exports = {
 		indent: ['error', 'tab', {
 			SwitchCase: 1,
 			FunctionDeclaration: {
-        parameters: 2,
+        parameters: 1,
         body: 1
       },
 		}],
