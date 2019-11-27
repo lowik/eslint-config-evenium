@@ -1,12 +1,12 @@
 module.exports = {
-	parser: 'babel-eslint',   // https://github.com/babel/babel-eslint
+	//parser: 'babel-eslint',   // https://github.com/babel/babel-eslint
 	parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 2018,
     sourceType: 'module'
   },
-	env: {                    // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
-		'browser': true,         // browser global variables
-		'node': true             // Node.js global variables and Node.js-specific rules
+	env: { // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
+		'browser': true, // browser global variables
+		'node': true, // Node.js global variables and Node.js-specific rules
 	},
 	rules: {
 		/**
@@ -119,9 +119,9 @@ module.exports = {
 				'allowSingleLine': true
 			}
 		],
-		/*'quotes': [
+		'quotes': [
 			'error', 'single', 'avoid-escape'         // http://eslint.org/docs/rules/quotes
-		],*/
+		],
 		'camelcase': ['error', {                     // http://eslint.org/docs/rules/camelcase
 			'properties': 'never'
 		}],
@@ -158,6 +158,6 @@ module.exports = {
 		'space-before-blocks': 'error',                      // http://eslint.org/docs/rules/space-before-blocks
 		'space-before-function-paren': ['error', 'never'],   // http://eslint.org/docs/rules/space-before-function-paren
 		'space-infix-ops': 'error',                          // http://eslint.org/docs/rules/space-infix-ops
-		'spaced-comment': 'off'
+		'spaced-comment': 'off',
 	}
 };
